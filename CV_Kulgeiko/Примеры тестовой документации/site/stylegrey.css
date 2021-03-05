@@ -1,0 +1,79 @@
+* { 
+margin: 0; 
+padding: 0; 
+border: 0; 
+} 
+ 
+body { 
+padding: 2% 0 0; 
+background: url(imagesgrey/grey_bg1.jpg) repeat #6a6a6a; 
+color: #000; 
+font-family: Arial, Verdana, Helvetica, sans-serif; 
+} 
+
+#container { 
+width: 760px; 
+margin: 0 auto; 
+} 
+
+#header {
+	background: url(imagesgrey/body_bg.gif) no-repeat;
+	height: 120px;
+}  
+#slogan {float:right; padding:10px 10px 15px 0px; color:#fff; font-size:11px; text-align:right; font-family:Verdana;}
+#name {float:left; padding:10px 0px 15px 15px; color:#fff; font-size:12px; text-align:left; font-family:Arial;}
+#name  h1 {font-size:22px; font-weight:bold; margin:5px 0 5px 0; color:#e4e0e0;}
+#name  h2 {font-size:16px; font-weight:bold; margin:5px 0 5px 0; color:#fff;}
+#main {float:right; width:100%; background: url(imagesgrey/linebg4.gif);}
+#main a {color:#0000cc; text-decoration:none;}
+#main a:hover {color:#FF0000; font-family:Arial; font-size:12px; font-weight: normal}
+.table {
+
+		width:500px;
+	}
+	.table1 {
+	padding:0px 2px 0px 5px;
+		border-collapse:collapse;
+		border:1px solid #343434;
+		
+	}
+#textbody {
+float:right;
+margin:15px 10px 0px 10px;
+font-size:12px; 
+	color:#000; 
+	text-align:left;
+	line-height:1.5;
+	width:550px;
+}
+#textbody  h1 {font-size:18px; font-weight:	normal; margin:15px 0 0px 0; color:#6a6a6a; font-family:Verdana;}
+#textbody  h2 {BORDER-BOTTOM: #6a6a6a 1px solid; font-size:18px; font-weight:bold; margin:15px 0 0px 0; color:#6a6a6a; font-family:Verdana;}
+#textbody  h3 {font-size:14px; font-weight:bold; margin:5px 0px 0px 10px; color:#fff; font-family:Verdana;}
+#textbody ol, #text ul {padding:0; margin:10px 0;}
+#textbody li {margin-left:30px;}
+#menu {width:180px; float:left; }
+#hedmenu {
+	margin:15px 7px 0px 8px;
+width:165px;
+	font-size:12px; 
+	line-height:1.75;
+	color:#000; 
+	text-align:left;}
+
+#hedmenu ul {margin:0px; padding:5px;}
+#hedmenu li {list-style:none; padding:0px 0 5px 8px; background:url(imagesgrey/ligrey.gif) 0px 8px no-repeat;}
+#footer {background:url(imagesgrey/footer_bg1.gif) no-repeat; height: 40px; clear:both; margin:0px 0px 10px 0px; 
+text-align:center; color:#fff; font-size:12px; padding-top:0px; width:100%;}
+#footer a {color:#fff; font-size:12px; 
+	color:#fff; text-decoration:none;}
+#footer a:hover {color:#FF0000; font-family: Arial; font-size:12px; font-weight: normal}
+#footertext{
+text-align:center;
+	padding-top:14px;
+	hight:12px;
+}
+
+#bottom {height: 20px; clear:both; margin:0px 0px 0px 0px; 
+text-align:center; color:000; font-size:12px; width:100%;}
+#bottom a {color:#0000cc; text-decoration:none;}
+#bottom a:hover {color:#FF0000; font-family: Arial; font-size:12px; font-weight: normal}
